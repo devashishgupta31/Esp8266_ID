@@ -1,0 +1,13 @@
+#include "ESP.h"
+
+void setup() {
+  Serial.begin(115200); 
+  //Serial.print("Chip ID: ");
+  Serial.println(ESP.getChipId());
+  delay(100);
+  Serial.println(ESP.getChipId());
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+}
